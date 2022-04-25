@@ -11,7 +11,7 @@ xyz = gets.strip
 
 user_i = input_to_index(xyz)
 
-if valid_move?(board,abc)
+if valid_move?(board,user_i)
 move(board,user_i,"X")
 else
     turn(board)
